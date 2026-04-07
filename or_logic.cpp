@@ -13,7 +13,7 @@ int main(){
 
     Avarage = (ScoreA + ScoreB) / 2;
 
-   if ((Avarage < 60) || (Avarage > 70)){
+   if ((Avarage < 60) || (ScoreA > 70)){
 
         status = "passed";
 

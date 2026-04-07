@@ -41,3 +41,11 @@ void choosemajor (){
         break;
     }
 }
+
+void output(){
+
+    cout<<"\n=== selection results ==="<<endl;
+    cout<<"chosen major : "<<departmentname<<endl;
+    cout<<"Quota Status : "<<quotastatus<<endl;
+    cout<<"========================"<<endl;
+}

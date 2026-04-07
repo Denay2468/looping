@@ -9,4 +9,16 @@ int main(){
     cin>>ScoreB;
     cout<<"Enter English Score : ";
     cin>>ScoreA;
+
+    Avarage = (ScoreA + ScoreB) / 2;
+
+    if (!(Avarage <60))
+    {
+        status = "Passed";
+    } else {
+        status = "Failed";
+    }
+    cout<<"Status: "<<status<<"with an average score of "<<Avarage<<endl;
+
+
 }
